@@ -1,0 +1,15 @@
+###
+Get http://localhost:5000/api/messages
+
+###
+POST http://localhost:5000/api/messages
+Content-Type: application/json
+
+{
+    "message": "hello hassan",
+    "private": true,
+    "game_id": 1
+}
+
+###
+DELETE http://localhost:5000/api/messages/44
